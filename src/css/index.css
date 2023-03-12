@@ -1,0 +1,36 @@
+:root{
+    --color1:#343A40;
+    --color2:#d19f48;
+    --orange1:#ff9108;
+    --color3:#212121;
+    --black:#000000;
+    --color4:#e2e2e2;
+    --color5:#e8e8e8;
+    --color6:#007bff;
+    --color7:#636c72;
+}
+.bg-danger-o{
+    background-color: rgba(255, 0, 0, 0.31);
+}
+
+div.modal-content input {
+    background: var(--color4);
+    border-bottom: 1px solid var(--color1);
+}
+div.modal-content {
+    border: 6px solid var(--color4);
+} 
+div.modal-content button {
+    color:white
+}
+
+#deletemodel {
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.a-fade{
+         transition: opacity .15s linear;
+}
